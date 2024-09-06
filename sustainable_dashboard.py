@@ -5,7 +5,7 @@ import pandas as pd
 import plotly.express as px
 
 # Load the data
-df = pd.read_csv('/Users/chloesainsbury/Documents/Python Scripts/SEI Summary 2 - 2024-8-12.csv', index_col=False)
+df = pd.read_csv('SEI_Summary_2.csv', index_col=False)
 
 # Ensure 'Rating Year' is numeric
 df['Rating Year'] = pd.to_numeric(df['Rating Year'], errors='coerce')
