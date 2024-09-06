@@ -14,7 +14,7 @@ if not df.empty:
     df['Rating Year'] = df['Rating Year'].astype(int)
 
 # Title and description
-st.title('Sustainable Investments Dashboard')
+st.title('Sustainable Economy Intelligence')
 st.write('Explore sustainable investments and revenues across industries.')
 
 # Filter options
