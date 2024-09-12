@@ -3,7 +3,7 @@ import pandas as pd
 import plotly.express as px
 
 # Load the data
-df = pd.read_csv('/Users/chloesainsbury/Documents/Python Scripts/SEI_Summary_2.csv', index_col=False)
+df = pd.read_csv('SEI_Summary_2.csv', index_col=False)
 
 # Ensure 'Rating Year' is numeric
 df['PPP Value'].fillna(0, inplace=True)
